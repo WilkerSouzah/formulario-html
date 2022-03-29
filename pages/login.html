@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <title>HTC - Login</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,50 +9,55 @@
     />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <title>HTC - Login</title>
   </head>
   <body>
-    <form class="form">
-      <h1 class="title">Faça seu login</h1>
+    <section class="container-login">
+      <form class="form">
+        <h1 class="title">Faça seu Login</h1>
 
-      <div class="box">
-        <label class="label-field">E-mail:</label>
-        <input
-          type="email"
-          class="field-input"
-          placeholder="Digite seu e-mail"
-          required
-        />
-      </div>
-
-      <div class="box">
-        <label class="label-field">Senha:</label>
-        <input
-          type="password"
-          class="field-input"
-          placeholder="Digite sua senha"
-          required
-        />
-      </div>
-
-      <div class="terms double-box">
-        <div class="input-genre">
-          <input type="checkbox" name="remember-checkbox" class="checkbox-field" />
-          <p class="label-field" for="remember-checkbox" >Mantenha-me conectado</p>
+        <div class="box">
+          <label class="label-field">E-mail:</label>
+          <input
+            type="email"
+            class="field-input"
+            placeholder="Digite seu e-mail"
+            required
+          />
         </div>
-        
-        <div>
-          <p class="label-field">
-            <a href="#" style="text-decoration: none">Esqueci minha senha</a>
-          </p>
+
+        <div class="box">
+          <label class="label-field">Senha:</label>
+          <input
+            type="password"
+            class="field-input"
+            placeholder="Digite sua senha"
+            required
+          />
         </div>
-      </div>
 
-      <button class="submit-button">Entrar</button>
+        <div class="terms double-box">
+          <div class="input-genre">
+            <input type="checkbox" class="checkbox-field" />
+            <p class="label-field">Mantenha-me conectado</p>
+          </div>
 
-      <p class="account label-field">
-        Ainda não tem uma conta?
-        <a style="text-decoration: none" href="../index.html">Cadastre-se</a>
-      </p>
-    </form>
+          <div>
+            <p class="label-field">
+              <a href="./reset-password.html" style="text-decoration: none"
+                >Esqueci minha senha</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <button class="submit-button">Entrar</button>
+
+        <p class="account label-field">
+          Ainda não tem uma conta?
+          <a style="text-decoration: none" href="../index.html">Cadastre-se</a>
+        </p>
+      </form>
+    </section>
   </body>
 </html>
